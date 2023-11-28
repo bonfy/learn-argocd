@@ -5,8 +5,7 @@ argocd example
 ## Minikube
 
 ```cmd
-$ minikube start --kubernetes-version=v1.26.1 --dri
-ver=docker
+$ minikube start --kubernetes-version=v1.26.1 --driver=docker
 
 
 $ kubectl get nodes
